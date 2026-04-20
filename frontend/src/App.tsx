@@ -6,7 +6,7 @@ type Sender = 'bot' | 'user'
 
 type Message = {
   id: number
-  sender: Sender
+  sender: Sender    
   text: string
   time: string
 }
@@ -55,6 +55,29 @@ const patterns: Pattern[] = [
     responses: [
       'Why do programmers prefer dark mode? Because light attracts bugs.',
       "I told my computer I needed a break, and it said: no problem, I'll go to sleep.",
+      'Why did the developer go broke? Because he used up all his cache.',
+      'I would tell you a UDP joke, but you might not get it.',
+      'Why do Java developers wear glasses? Because they do not C#.',
+      'My code does not always work, but when it does, I do not know why.',
+      'Debugging: being the detective in a crime movie where you are also the culprit.',
+      'I asked the server for a joke, and it returned 404: humor not found.',
+      'Why was the function sad? It did not get called.',
+      'I tried to make a belt out of watches. It was a waist of time.',
+      'Parallel lines have so much in common. It is a shame they will never meet.',
+      'I told my code a joke, but it did not react. Must be a deadlock.',
+      'Why was the math book upset? It had too many problems.',
+      'I ate a clock yesterday. It was very time-consuming.',
+      'Why did the scarecrow win an award? He was outstanding in his field.',
+      'Why do bees have sticky hair? Because they use honeycombs.',
+      'Why did the tomato blush? It saw the salad dressing.',
+      'What do you call fake spaghetti? An impasta.',
+      'I only know 25 letters of the alphabet. I do not know y.',
+      'Why did the cookie go to the doctor? It felt crummy.',
+      'What did one wall say to the other wall? I will meet you at the corner.',
+      'Why can you not trust atoms? They make up everything.',
+      'How do you organize a space party? You planet.',
+      'What do you call cheese that is not yours? Nacho cheese.',
+      'I used to play piano by ear, now I use my hands.',
     ],
   },
   {
