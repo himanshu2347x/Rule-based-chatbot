@@ -29,7 +29,7 @@ const patterns: Pattern[] = [
   },
   {
     name: 'Mood',
-    regex: /\b(how are you|how r u|sup|whats up)\b/,
+    regex: /\b(how are you|how r u|how are u|sup|whats up)\b/,
     responses: [
       "I'm just code, but I'm running nicely.",
       'Doing great. Thanks for asking!',
