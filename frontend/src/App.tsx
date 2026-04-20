@@ -233,7 +233,6 @@ function App() {
       <section className="chat-workspace" aria-label="RuleBot chat workspace">
         <aside className="side-panel" aria-label="Bot reference">
           <div>
-            <p className="panel-kicker">Backend intents</p>
             <h2>Conversation map</h2>
             <p>{activeIntents}</p>
           </div>
